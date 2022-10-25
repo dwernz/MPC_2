@@ -1,0 +1,70 @@
+.container {
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 50%;
+    margin: auto;
+}
+
+#accordion {
+    margin-top: 20px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.ender {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 25px;
+}
+
+.row {
+    max-width: 95%;
+    margin: auto;
+    justify-content: center;
+}
+
+.candidate {
+    margin: 25px auto;
+}
+
+.contact {
+    list-style: none;
+}
+
+.card-title {
+    color: #0d6efd;
+}
+
+.btn-center {
+    margin: 10px auto;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width:fit-content;
+    font-weight: 700;
+}
+
+/* .test {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    
+} */
