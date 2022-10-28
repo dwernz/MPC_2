@@ -104,7 +104,10 @@ app.get("/xamarinDev", function(req, res) {
 });
 
 // 16
-//
+// Cybersecurity Technician
+app.get("/cybersecurityTech", function(req, res) {
+  res.render("pages/cybersecurityTech");
+});
 
 
 const PORT = process.env.PORT || 5001;
