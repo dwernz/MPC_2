@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include("../partials/head"); %>
+
+        <!-- Change -->
+        <Title>__POSITION TITLE__</Title>
+    </head>
+    <body class="container">
+        <header>
+            <%- include("../partials/header"); %>
+        </header>
+
+        <main>
+
+            <div class="card candidate">
+                <div class="card-header">
+                    <!-- Position Title -->
+                    <h3>__POSITION_TITLE__</h3>
+
+                    <!-- Recruiter -->
+                    <h5>Recruiter: __RECRUITER_NAME__</h5>
+
+                    <!-- BH ID -->
+                    <h6>ID: __ID_NUMBER__</h6>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <ul>
+                            <!-- Information -->
+                            <li></li>
+
+                            <!-- Email -->
+                            <!-- mail to recruiter. Change title-->
+                            <a href="mailto:__RECRUITER_EMAIL__?subject=Requesting Information About Your __POSITION_TITLE__ Candidate
+                                &cc=Daniel.Wernz@LHH.com
+                                &body=Hello __RECRUITER_NAME__,
+                                %0D%0A%0D%0AI would like to schedule a call at your earliest convenience to discuss your __POSITION_TITLE__ candidate.
+                                %0D%0A%0D%0AFor quick reference, the ID number is __ID_NUMBER__." 
+                                class="btn btn-primary btn-center">Request more information
+                            </a>
+                        </ul>
+                    </blockquote>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer>
+            <%- include("../partials/footer"); %>
+        </footer>
+    </body>
+</html>

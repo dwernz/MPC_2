@@ -13,49 +13,102 @@ app.get('/', function(req, res) {
   res.render('pages/index');
 });
 
-// Frontend Developer
-app.get("/frontend", function(req, res) {
-    res.render("pages/frontend");
-});
-
-// Backend Developer
-
-
+// 1
 // .NET Developer
 app.get("/netdev", function(req, res) {
   res.render("pages/netdev");
 });
 
-// QA Engineer
-
-
-// Python Developer
-
-
+// 2
 // AWS DevOps Engineer
 app.get("/awsdevops", function(req, res) {
-  res.render("pages/AWSDevOps")
-})
+  res.render("pages/AWSDevOps");
+});
 
+// 3
+// Backend Developer
+app.get("/backend", function(req, res) {
+  res.render("pages/backendDev");
+});
+
+// 4
 // Data Analyst
+app.get("/dataAnalyst", function(req, res) {
+  res.render("pages/dataAnalyst");
+});
 
-
-// Data Scientist
-
-
+// 5
 // Data Architect
+app.get("/dataArchitect", function(req, res) {
+  res.render("pages/dataArchitect");
+});
 
+// 6
+// Data Engineer
+app.get("/dataEngineer", function(req, res) {
+  res.render("pages/dataEngineer");
+});
 
+// 7
 // Data Scientist
+app.get("/dataScientist", function(req, res) {
+  res.render("pages/dataScientist");
+});
 
-
+// 8
 // Director of IT
+app.get("/directorOfIT", function(req, res) {
+  res.render("pages/directorOfIT");
+});
 
+// 9
+// Frontend Developer
+app.get("/frontend", function(req, res) {
+    res.render("pages/frontend");
+});
 
-// Vice President of Development
-
-
+// 10
 // IT Manager
+app.get("/ITManager", function(req, res) {
+  res.render("pages/ITManager");
+});
 
+// 11
+// Python Developer
+app.get("/pythonDev", function(req, res) {
+  res.render("pages/pythonDev");
+});
+
+// 12
+// QA Engineer
+app.get("/QAEngineer", function(req, res) {
+  res.render("pages/QAEngineer");
+});
+
+// 13
+// Vice President of Development
+app.get("/vpofdev", function(req, res) {
+  res.render("pages/VPofDev");
+});
+
+// 14
+// WordPress Developer
+app.get("/wordpressDev", function(req, res) {
+  res.render("pages/wordpressDev");
+});
+
+// 15
+// Xamarin Developer
+app.get("/xamarinDev", function(req, res) {
+  res.render("pages/xamarinDev");
+});
+
+// 16
+//
+
+
+
+
+// Message
 app.listen(8080);
 console.log('Server is listening on port 8080');

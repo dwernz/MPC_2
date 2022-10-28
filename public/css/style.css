@@ -60,6 +60,12 @@ footer {
     font-weight: 700;
 }
 
+.jumbotron {
+    margin: 25px;
+    text-align: center;
+    background-color: lightblue;
+}
+
 /* .test {
     position: absolute;
     text-align: center;
