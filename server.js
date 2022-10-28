@@ -28,7 +28,7 @@ app.get("/awsdevops", function(req, res) {
 // 3
 // Backend Developer
 app.get("/backend", function(req, res) {
-  res.render("pages/backend");
+  res.render("pages/backendDev");
 });
 
 // 4
@@ -105,8 +105,8 @@ app.get("/xamarinDev", function(req, res) {
 
 // 16
 // Cybersecurity Technician
-app.get("/cybersecurityTech", function(req, res) {
-  res.render("pages/cybersecurityTech");
+app.get("/cybersecurity", function(req, res) {
+  res.render("pages/cybersecurity");
 });
 
 
