@@ -10,11 +10,6 @@ app.set('view engine', 'ejs');
 
 // index page
 app.get('/', function(req, res) {
-  res.render('pages/home');
-});
-
-// test
-app.get('/home', function(req, res) {
   res.render('pages/index');
 });
 
