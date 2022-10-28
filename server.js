@@ -13,6 +13,11 @@ app.get('/', function(req, res) {
   res.render('pages/index');
 });
 
+// test
+app.get('/home', function(req, res) {
+  res.render('pages/index');
+});
+
 // 1
 // .NET Developer
 app.get("/netdev", function(req, res) {
