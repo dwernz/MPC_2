@@ -28,7 +28,7 @@ app.get("/awsdevops", function(req, res) {
 // 3
 // Backend Developer
 app.get("/backend", function(req, res) {
-  res.render("pages/backendDev");
+  res.render("pages/backend");
 });
 
 // 4
