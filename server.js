@@ -107,7 +107,7 @@ app.get("/xamarinDev", function(req, res) {
 //
 
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 80;
 
 // Message
 app.listen(PORT, ()=> console.log("Server is listening on port $(PORT)"));
