@@ -39,6 +39,7 @@ app.get("/dataAnalyst", function(req, res) {
 
 // 5
 // Data Architect
+// No MPC yet
 app.get("/dataArchitect", function(req, res) {
   res.render("pages/dataArchitect");
 });
@@ -70,7 +71,7 @@ app.get("/frontend", function(req, res) {
 // 10
 // IT Manager
 app.get("/ITManager", function(req, res) {
-  res.render("pages/ITManager");
+  res.render("pages/ITManagerTwo");
 });
 
 // 11
@@ -109,6 +110,11 @@ app.get("/cybersecurity", function(req, res) {
   res.render("pages/cybersecurity");
 });
 
+// 17
+// Senior Java Developer
+app.get("/seniorJavaDev", function(req, res) {
+  res.render("pages/seniorJavaDev");
+});
 
 const PORT = process.env.PORT || 5001;
 
